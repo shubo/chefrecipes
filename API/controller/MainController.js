@@ -1,8 +1,8 @@
 
-var http = require('http');
-var server = http.createServer();
+const http = require('http');
+const server = http.createServer();
 
-var requestMapping = require('./RequestMapping');
+const requestMapping = require('./RequestMapping');
 
 server.on('request', function(req, res){
 
